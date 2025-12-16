@@ -1,0 +1,246 @@
+@charset "UTF-8";
+body {
+background-color:#181818;
+color: white;
+font-family: Tahoma, sans-serif;
+}
+
+a {
+  color: inherit;         
+  text-decoration: none;  
+}
+
+
+.linija{
+   width:60%
+}
+
+.tabela1 {
+  width: 100%;
+  height: 40px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: #181818;
+}
+
+.tabela1 td {
+  padding: 0px 25px;
+  text-align: center; 
+  vertical-align:middle;
+}
+
+.tabela1 h2 {
+  margin: 0;
+  font-size: 22px;
+  cursor: pointer;
+  line-height: 60px;
+}
+
+.tabela1 h2:hover {
+  color: #e63946; 
+}
+
+
+
+
+.tabela2 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.tabela2 img{
+  width: 100%;
+  height: auto;
+
+}
+
+
+
+
+
+
+
+.tabela3{
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.tabela3 td {
+  padding: 20px;
+}
+
+.tabela3 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.tabela4{
+  width: 60%;           
+  margin: 0 auto;       
+  text-align: center;
+  border-collapse: collapse;
+
+}
+
+.tabela4 h3 {
+  margin-bottom: 20px;
+  text-align: middle;
+}
+
+.tabela4 td {
+  padding: 10px;
+  text-align: middle;
+}
+
+.tabela4 img {
+  width: 100px;         
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.tabela5 {
+  width: 60%;           
+  margin: 0 auto;       
+}
+
+.tabela5 h1 {
+  text-align: center;   
+}
+
+.paragraf1 {
+  text-align: justify;  
+}
+
+
+
+.tabela6 {
+  width: 60%;             
+  margin: 40px auto;     
+  border-collapse: collapse;
+}
+
+.tabela6 td {
+  vertical-align: top;    
+  padding: 15px;         
+}
+
+
+.tabela6 h2 {
+  font-size: 20px;        
+  margin: 10px 0 5px;
+}
+
+.paragraf2 {
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+
+.tabela6 iframe {
+  width: 100%;           
+  max-width: 400px;       
+  height: 200px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.tabela6 ul {
+  list-style: circle;
+  padding: 0;
+  margin: 0;
+}
+
+.tabela6 li {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+
+.tabela7{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela7 td{
+  background-image: url("slika10.png");   
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 700px;
+  padding: 10px 20px;
+       
+}
+
+.natpis1 {
+  text-align: left;
+  vertical-align: text-top;
+  margin: 0;
+  font-family:"New Century Schoolbook",Times,serif;
+  font-weight: bold;
+  font-size:40pt
+}
+
+.natpis2 {
+  margin:0;
+  text-align: center;
+  vertical-align: ttext-bottom;
+  margin-top: 80px;  
+  padding-top: 500px; 
+  font-weight: bold;
+  font-size:60pt  
+    
+}
+
+.tabela8 h5{
+   text-align: center;
+   font-family:"Helvetica",sans-serif;
+}
+
+
+footer {
+  background-color: #181818;
+  padding: 30px 0;
+  font-family: Arial, sans-serif;
+}
+
+.forma {
+  text-align: center;
+  padding: 20px;
+}
+
+.forma input[type="text"] {
+  padding: 7px;
+  width: 200px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.forma input[type="submit"] {
+  margin-top: 15px;
+  padding: 8px 20px;
+  background-color: #e60000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forma input[type="submit"]:hover {
+  background-color: #cc0000;
+}
